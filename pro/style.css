@@ -1,0 +1,111 @@
+*{
+    background-color: mistyrose;
+    min-width: 200px;
+    max-width: 800px;
+    margin: 0 auto;
+
+}    
+.heading h1{
+    color:rgb(47,79,79);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: Bold;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    width: 800px;
+    background-color: mistyrose;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: inline-block;
+
+
+}
+.types ul{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+    text-align: center;
+    padding-left: 10px;
+    font-weight:lighter;
+    font-size: 20px;
+    list-style:none;
+    position: relative;
+    display: block;
+    opacity: 0.3;
+    
+}
+.types p{
+    font-family:cursive;
+    color: black;
+    background-color: aquamarin;
+    opacity: 0.3;
+    text-align: center;
+
+}
+    
+.heading p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 70;
+    font-size: medium;
+    float:none;
+    color:sienna;
+    border-bottom: 2px solid black;
+    position: relative;
+    top: 70px;
+    margin-bottom: 30px;
+}
+.types {
+    border: dashed 5px red;
+    border-radius: 100px;
+    padding: 10px 30px 1px;
+    width: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    visibility:visible;
+    margin-bottom: 20px;
+    position: relative;
+    top: 70px;
+    background-image: url("jjj\ .png");
+    }
+.review {
+    border: 1px green solid;
+    text-align: center;
+    position: relative;
+    padding: 20px 0px;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    overflow:auto;
+    max-width: 800px;
+    top: 100px;
+}
+.review a {
+    display: inline-block;
+    color: white;
+    background: darkred;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkred;
+    border-radius: 10px; 
+    text-decoration:dashed;
+}
+.review a:hover {
+    border: 1px dotted gray;
+    background: white;
+    color: darkblue;
+}
+img {
+    height: 300px;
+    width: 300px;
+    left: 80px;
+    position: relative;
+    display:inline-block;   
+    top: 80px;
+}
+.images p {
+    text-align: center;
+    color:darkred;
+    font-weight: bold;
+    position: relative;
+    top: 80px;
+    margin-bottom: 10px;
+}
